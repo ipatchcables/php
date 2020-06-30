@@ -1,1 +1,9 @@
 
+ <form action="site.php" method="GET">
+   <inoput type="number" name="num1"
+      <input type="number" name="num2"
+
+   <input type="submit">
+  </form>
+  
+   <?php echo $_GET["num1"] +  $_GET["num2"] ?> // Getting User Input
