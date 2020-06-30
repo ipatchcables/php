@@ -3,5 +3,5 @@
    <input type="submit">
   </form>
   
-   <?php echo $_GET["num1"] + $_GET["num2"] ?> // Getting User Input
+   <?php echo $_GET["name"] ?> // Getting User Input
 
