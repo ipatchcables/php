@@ -1,0 +1,23 @@
+
+ <form action="site.php" method="GET">
+   <input type ="text" name"input1">
+      <input type ="text" name"input2">
+   <input type ="text" name"input3">
+
+   
+   
+
+   <input type="submit">
+  </form>
+
+   <?php 
+   
+  $input1 = $_GET["input1"];
+  $input2 = $_GET["input2"];
+  $input3 = $_GET["input3"];
+
+    echo "Roses are $input1;
+    echo "Roses are $input2;
+    echo "Roses are $input3;
+
+   ?>
