@@ -5,3 +5,11 @@
   
    <?php echo $_GET["username"] ?> // Getting User Input
 
+ <form action="site.php" method="GET">
+   Name: <input type="text" name="number name="age"" >
+   <input type="submit">
+  </form>
+  
+   <?php echo $_GET["username"] ?> // Getting User Input
+
+   <?php echo $_GET["age"] ?> // Getting User Input
