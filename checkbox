@@ -1,0 +1,10 @@
+ <form action="site.php" method="POST">
+  
+      Apples : <input type="checkbox"> name="fruits[]" value="apples"><br>
+            Apples : <input type="checkbox"> name="fruits[]" value="apples"><br>
+        Apples : <input type="checkbox"> name="fruits[]" value="apples"><br>
+
+      <input type="submit">
+    
+  </form>
+  
