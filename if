@@ -6,8 +6,11 @@ $isTall = true;
 
 if ($isMale && isTall;){
   echo "Male";
+} elseif ($isMale && !$isTall) {
+echo "You are a short male"
 } else {
-echo "Not male"
+echo "End"
 }
+
 
 ?>
