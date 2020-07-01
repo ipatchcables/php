@@ -1,0 +1,13 @@
+
+<?php
+
+$isMale = true;
+$isTall = true;
+
+if ($isMale && isTall;){
+  echo "Male";
+} else {
+echo "Not male"
+}
+
+?>
