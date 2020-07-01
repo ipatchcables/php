@@ -1,0 +1,22 @@
+
+<?php
+
+$friends = array("Kevin", "Karen", "Oscar", "Jimmy"); // elements inside array
+$friends[1] = "derp" //Modify element in array
+echo $friends[0];
+
+?>
+
+
+
+
+<input type="text" name="student">
+<input type="submit">
+</form>
+
+<?php
+
+$grades = array ("jim" =>, "A+", "pam" => "B+", "Oscar" => "C+");
+echo $grades[_$POST["student"]];
+
+?>
