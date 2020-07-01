@@ -8,6 +8,8 @@ if ($isMale && isTall;){
   echo "Male";
 } elseif ($isMale && !$isTall) {
 echo "You are a short male"
+}  elseif (!$isMale && $isTall) {
+echo "You are not a male"
 } else {
 echo "End"
 }
