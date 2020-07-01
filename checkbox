@@ -11,3 +11,4 @@
 <?php
 
 $fruits = $_POST["fruits"] //array
+echo $fruits[1];
