@@ -1,10 +1,13 @@
  <form action="site.php" method="POST">
   
       Apples : <input type="checkbox"> name="fruits[]" value="apples"><br>
-            Apples : <input type="checkbox"> name="fruits[]" value="apples"><br>
-        Apples : <input type="checkbox"> name="fruits[]" value="apples"><br>
+      Pears : <input type="checkbox"> name="fruits[]" value="pears"><br>
+      Orange : <input type="checkbox"> name="fruits[]" value="orange"><br>
 
       <input type="submit">
     
   </form>
   
+<?php
+
+$fruits = $_POST["fruits"] //array
